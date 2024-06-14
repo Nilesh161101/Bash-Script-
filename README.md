@@ -1,6 +1,6 @@
 **SYSADMIN TASKS SCRIPT**
 
-This Bash script is designed to  gather essential system information. It includes functions to display system uptime, disk usage, memory usage, active processes, and update the system on Debian-based distributions. This is done so that commands can be sent all at the same time instead of writing and sending commands one by one.
+This Bash script is designed to  gather essential system information. It includes functions to display system uptime, disk usage, memory usage, and active processes. This is done so that commands can be sent all at the same time instead of writing and sending commands one by one.
 
 Functions:
 1. show_uptime()
@@ -36,6 +36,8 @@ Displays memory usage.
 
 Displays active processes.
 
+**CONTINUOUS SESSION OF THE SYSADMIN BASH SCRIPT**
 
+The .sh file, Bash_Script_Continuous_Session, is a modification of the original Bash_Script.sh. It is modified to keep the session running instead of just running the file and completing the session after running the command. All the functions are kept the same.
 
 
